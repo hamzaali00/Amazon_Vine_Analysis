@@ -2,6 +2,10 @@
 
 ## Purpose
 
+The purpose of this analysis was to determine positivity bias in amazon reviews from people that were being paid to review products by Vine.
+PySpark was used to extract, transform, and load data from an Amazon S3 bucket to pgAdmin using an AWS RDS instance.
+PySpark was then used to determine positivity bias from Vine members
+
 ## Results
 
 ![Vine and Non-Vine Reviews](Resources/vine_reviews.png)
